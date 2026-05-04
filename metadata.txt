@@ -1,0 +1,18 @@
+[general]
+name=OpenGeoEnrich
+qgisMinimumVersion=3.22
+description=Open-source geoenrichment for QGIS: enrich points, lines, or polygons with open-data population, roads, facilities, land-cover, and terrain indicators.
+version=1.2.4
+author=Irfan Mahmood
+email=irfan-mahmood@outlook.com
+about=OpenGeoEnrich is a QGIS Processing Toolbox plugin for adding contextual geospatial indicators to any vector layer. It supports prepared open-data folders, OSM auto-fetch for roads and facilities, optional WorldPop population preparation, optional ESA WorldCover 10 m land-cover preparation, optional Copernicus DEM GLO-30 preparation with slope/TRI derivation, and manual layer inputs for population, land cover, DEM, roads, and facilities.
+tracker=https://github.com/mahmoodirfan/OpenGeoEnrich/issues
+repository=https://github.com/mahmoodirfan/OpenGeoEnrich
+homepage=https://github.com/mahmoodirfan/OpenGeoEnrich
+category=Analysis
+tags=geoenrichment,spatial analysis,openstreetmap,overpass,zonal statistics,population,land cover,roads,accessibility,open data,dem,worldcover,esa,reporting
+icon=icons/icon.png
+experimental=False
+deprecated=False
+license=GPL-2.0-or-later
+changelog=Improves default output styling, clears accidental selection highlight, and keeps Quick/Full open-data preparation with OSM, WorldPop, WorldCover, Copernicus DEM, density/per-10k indicators, QA zones, CSV, and HTML reports.
