@@ -1,11 +1,25 @@
+<p align="center"><img src="assets/readme-banner.svg" alt="OpenGeoEnrich — Put every location in context. A QGIS Processing plugin." width="100%"></p>
+
+<p align="center"><a href="#install"><b>Install</b></a> &nbsp; · &nbsp; <a href="#start-here"><b>Quick start</b></a> &nbsp; · &nbsp; <a href="docs/guide.md">Full guide</a> &nbsp; · &nbsp; <a href="https://github.com/mahmoodirfan/OpenGeoEnrich/issues">Get support</a></p>
+
 # OpenGeoEnrich
-### Turn locations into contextual indicators.
 
 A QGIS Processing plugin that enriches points, lines and polygons with population, land-cover, terrain, road and facility indicators. Use your own local data or prepare supported open datasets inside QGIS.
 
 **QGIS 3.22+ declared in plugin metadata** · Python · QGIS Processing
 
 [Detailed guide](docs/guide.md) · [Report a problem](https://github.com/mahmoodirfan/OpenGeoEnrich/issues) · [Contribute](CONTRIBUTING.md)
+
+## From your study area to usable indicators
+
+| 01 · Define | 02 · Prepare | 03 · Enrich |
+| :--- | :--- | :--- |
+| Points, lines or polygons | Local inputs or supported open datasets | A vector layer with contextual indicators |
+| Choose an appropriate projected CRS | Start small with Quick mode | Inspect QA zones, CSV and HTML outputs |
+
+<table>
+<tr><td width="33%" valign="top"><h3>Population</h3><p>Population totals and density, with population-normalized indicators where inputs are available.</p></td><td width="33%" valign="top"><h3>Land & terrain</h3><p>Land-cover composition, elevation, slope and terrain ruggedness.</p></td><td width="33%" valign="top"><h3>Roads & facilities</h3><p>Local infrastructure counts, road lengths and nearest-feature distances.</p></td></tr>
+</table>
 
 ## Start here
 
